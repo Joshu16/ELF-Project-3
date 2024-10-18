@@ -131,46 +131,6 @@ header {
 
 /* Responsive Design */
 /* Responsive Design for .perspectives */
-@media (max-width: 1024px) {
-    .characters {
-        flex-direction: column;
-        gap: 5vh;
-    }
-
-    .card {
-        width: 70vw;
-        height: auto;
-        padding-block: 5vw;
-        padding-inline: 7vw;
-    }
-
-    .characters img {
-        width: 60vw;
-        height: auto;
-    }
-
-    .introduction h1 {
-        font-size: 8vh;
-    }
-
-    .introduction h2 {
-        font-size: 6vh;
-    }
-
-    .introduction h3 {
-        font-size: 4vh;
-    }
-
-    .perspectives {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 2vw;
-    }
-
-    .perspectives div {
-        width: 90vw;
-    }
-}
 
 @media (max-width: 768px) {
     .introduction h1 {
